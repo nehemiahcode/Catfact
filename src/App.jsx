@@ -37,7 +37,7 @@ function Catfact() {
       ) : (
         <>
           <h1 className=" font-bold text-4xl text-center dark:text-white pt-5">
-            Catfacts
+            Cat Facts
           </h1>
           <div className="bg-black dark:bg-white rounded-lg w-[95%] lg:w-[70%]  mt-5 sm:w-[90%] h-[auto] lg:h-[600px] shadow-xl mx-auto  flex items-center flex-col py-5">
             <button
