@@ -29,7 +29,7 @@ function Catfact() {
     <>
       {animation ? (
         <div className=" fixed h-full w-full bg-white flex flex-col justify-center items-center">
-          <h1 className="  font-bold text-lg pb-10 ">Fetching Facts....</h1>
+          <h1 className="  font-bold text-lg pb-10 ">Fetching your Facts....</h1>
           <div className=" dark:bg-black bg-slate-800  w-20 h-20 rounded-full  animate-bounce   shadow-2xl flex justify-center items-center">
             <div className=" bg-white w-10 h-10 rounded-full"></div>
           </div>
