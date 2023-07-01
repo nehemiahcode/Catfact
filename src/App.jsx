@@ -63,7 +63,9 @@ function Catfact() {
             </div>
             <button
               onClick={fetchCatFact}
-              className="bg-slate-700 dark:bg-blue-900 px-6 py-4 dark:ring-lime-500 w-[auto] shadow-lg font-bold rounded-full text-white text-lg hover:ring-lime-700 hover:ring-4 ring-inset ring-slate-600"
+              className="bg-slate-700
+              border-b-[7px] border-blue-700 hover:border-0 duration-300
+              dark:bg-blue-900 px-6 py-4 dark:ring-lime-500 w-[auto] shadow-lg font-bold rounded-full text-white text-lg  ring-inset ring-slate-600"
             >
               Generate More Facts
             </button>
