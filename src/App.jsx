@@ -72,7 +72,7 @@ function Catfact() {
         {/* header with dark mode icons */}
           <header className=" bg-amber-100 dark:bg-slate-900 h-[60px] flex items-center justify-end px-5
            shadow-2xl static top-0 left-0 w-[100%] z-50 ">
-            <button
+            <div
               onClick={() => setTheme(getOtherOption(theme).text)}
               className={` h-10 w-10 flex justify-center items-center text-2xl font-extrabold rounded-full
                text-black bg-white dark:bg-slate-700 dark:text-white`}
@@ -80,7 +80,7 @@ function Catfact() {
               <ion-icon
                 name={theme === "light" ? Options[0].icon : Options[1].icon}
               ></ion-icon>
-            </button>
+            </div>
           </header>
           <h1 className=" font-bold text-4xl text-center text-black dark:text-white pt-5  pb-2 ">
             Cat Facts
