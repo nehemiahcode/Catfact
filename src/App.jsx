@@ -70,7 +70,7 @@ function Catfact() {
       ) : (
         <>
         {/* header with dark mode icons */}
-          <header className=" bg-amber-100 dark:bg-slate-900 h-[60px] flex items-center justify-end px-5
+          <header className=" bg-white dark:bg-slate-900 h-[60px] flex items-center justify-end px-5
            shadow-2xl static top-0 left-0 w-[100%] z-50 ">
             <div
               onClick={() => setTheme(getOtherOption(theme).text)}
@@ -86,7 +86,7 @@ function Catfact() {
             Cat Facts
           </h1>
           {/* Main section with catfacts images and facts */}
-          <div className=" dark:bg-slate-900 bg-amber-100 rounded-lg w-[95%] lg:w-[70%]  
+          <div className=" dark:bg-slate-900 bg-white rounded-lg w-[95%] lg:w-[70%]  
           mt-5 sm:w-[90%] h-[auto] lg:h-[100%] shadow-xl mx-auto  flex items-center flex-col py-5">
             {catImage && (
               <img
